@@ -1,11 +1,13 @@
 # kind-devcontainer
 
-kindを利用してDocker in Dockerの構成でkubernetesクラスタを構築します。
+簡単にローカルでkubernetesを動かしてみたいとう方向けのdevcontainerです。
 
-コンテナ内には以下のツールが同胞されます。
+Docker in Dockerの構成でコンテナ内でkindを使ってkubernetesのクラスタを構築できるようにしています。
 
-- docker cli
-- docker compose
+コンテナ内には以下のツールが同胞されていますので、kubernetesのクラスタを立てて、一通りの動きを確認することが可能だと思います。
+
 - kubectl
 - helm
 - kind
+
+Docker in Dockerの構成なのでイメージは共有されませんので、コンテナ内でイメージの消し忘れなどがおきないように注意してください。
