@@ -19,7 +19,10 @@
                 "PKief.material-icon-theme",
                 "oderwat.indent-rainbow",
                 "shardulm94.trailing-spaces",
-                "mosapride.zenkaku"
+                "mosapride.zenkaku",
+				"eamodio.gitlens",
+				"GitHub.vscode-pull-request-github",
+				"redhat.vscode-yaml"
 			]
 		}
 	},
